@@ -1,5 +1,5 @@
 const path = require('path');
-const Sequelize = require('sequelize');
+const { Sequelize, Model } = require('sequelize');
 
 const db = new Sequelize({
     dialect: 'sqlite',
